@@ -33,7 +33,16 @@ body[style*='--deepseek-theme-active'] .pI_x6G_sidebarCol{border-right-color:tra
 .dstSettingControls{display:grid;grid-template-columns:minmax(180px,1fr) minmax(156px,auto) auto;gap:8px;align-items:center}
 .dstSelect,.dstHex,.dstReset{height:32px;box-sizing:border-box;border:1px solid var(--dsw-alias-border-l2);border-radius:8px;background:var(--dsw-alias-bg-layer-1);color:var(--dsw-alias-label-primary);font:inherit;font-size:13px}.dstSelect{min-width:0;padding:0 28px 0 9px}.dstColorEditor{display:grid;grid-template-columns:34px 92px;gap:6px}.dstColorPicker{width:34px;height:32px;box-sizing:border-box;padding:3px;border:1px solid var(--dsw-alias-border-l2);border-radius:8px;background:var(--dsw-alias-bg-layer-1);cursor:pointer}.dstHex{width:92px;padding:0 8px;font-family:var(--ds-font-family-code);text-transform:lowercase}.dstHex[aria-invalid='true']{border-color:var(--dsw-alias-state-error-primary)}.dstReset{padding:0 10px;cursor:pointer}.dstReset:hover{background:var(--dsw-alias-interactive-bg-hover)}
 .dstSelect:focus,.dstHex:focus,.dstColorPicker:focus,.dstReset:focus-visible{outline:2px solid var(--dsw-alias-brand-primary);outline-offset:1px}
-@media(max-width:760px){.dstBalanceMeter{width:82px;margin:0 2px}.dstBalanceValue{flex-basis:36px;margin-left:4px;font-size:10px}.dstSettingControls{grid-template-columns:1fr auto}.dstSelect{grid-column:1/-1}}
+@media(max-width:820px){
+  .uV2eYG_row:has(.dstBalanceMeter){flex-wrap:nowrap;gap:8px}
+  .uV2eYG_tools:has(.dstBalanceMeter){flex:1 1 auto;gap:8px}
+  .uV2eYG_row:has(.dstBalanceMeter) .uV2eYG_trailing{flex:0 1 auto;margin-left:0;gap:8px}
+  .uV2eYG_row:has(.dstBalanceMeter) ._7KE1Ra_root{min-width:0}
+  .uV2eYG_row:has(.dstBalanceMeter) ._7KE1Ra_trigger{max-width:100%}
+  .dstBalanceMeter{flex:0 0 68px;width:68px;margin:0}
+  .dstBalanceValue{flex-basis:36px;margin-left:4px;font-size:10px}
+}
+@media(max-width:760px){.dstSettingControls{grid-template-columns:1fr auto}.dstSelect{grid-column:1/-1}}
 `
 
 export function installStyles(): () => void {
