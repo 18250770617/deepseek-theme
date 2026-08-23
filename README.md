@@ -18,7 +18,7 @@ one package.
 
 ## Compatibility
 
-Version `0.1.2` targets **DeepSeek Harness `0.1.1-rc.2` exactly**. The package
+Version `0.1.3` targets **DeepSeek Harness `0.1.1-rc.2` exactly**. The package
 uses official theme, settings, and conversation Slots where Harness exposes
 them. A small compatibility stylesheet is isolated and version-pinned because
 this Harness release has no public typography/sidebar decoration API.
@@ -44,7 +44,7 @@ You can also install a packaged release:
 ```powershell
 npm run build
 npm pack
-dsh plugin --profile web add ./dsh-deepseek-theme-0.1.2.tgz
+dsh plugin --profile web add ./dsh-deepseek-theme-0.1.3.tgz
 ```
 
 Open Harness settings and find **DeepSeek Theme** under General. The plugin is
