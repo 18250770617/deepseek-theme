@@ -42,6 +42,7 @@ dsh web
 You can also install a packaged release:
 
 ```powershell
+npm run build
 npm pack
 dsh plugin --profile web add ./dsh-deepseek-theme-0.1.0.tgz
 ```

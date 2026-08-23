@@ -3,5 +3,6 @@ coverage/
 *.tgz
 .test-home/
 .test-home-pack/
+.test-home-git/
 .stock-runner/
 .DS_Store
