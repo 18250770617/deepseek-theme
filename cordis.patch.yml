@@ -1,0 +1,6 @@
+# Installable bundle layer for the DeepSeek theme suite. The package's
+# dsh.client manifest makes the browser half discoverable from the same row.
+- insert:
+    - id: deepseek-theme
+      name: dsh-deepseek-theme
+
