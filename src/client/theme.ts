@@ -69,7 +69,7 @@ export const BLACK_RED_THEME: ThemeDefinition = Object.freeze({
     '--dsw-specific-input-major': 'rgb(30, 16, 20)',
     '--dsw-specific-login-input': 'rgb(22, 11, 14)',
     '--dsw-specific-selector': 'rgb(36, 19, 24)',
-    '--dsw-specific-sidebar-fill': 'rgb(22, 11, 14)',
+    '--dsw-specific-sidebar-fill': 'transparent',
     '--dsw-specific-sidebar-nav-item-active-accent': 'rgb(94, 22, 28)',
     '--dsw-specific-sidebar-nav-item-active': 'rgb(56, 28, 34)',
     '--dsw-specific-sidebar-nav-item-hover': 'rgb(30, 16, 20)',
@@ -91,4 +91,3 @@ export const BLACK_RED_THEME: ThemeDefinition = Object.freeze({
     '--deepseek-theme-sidebar-background': "linear-gradient(135deg, rgba(222, 116, 126, 0.14), transparent 34%, rgba(255, 215, 218, 0.06) 50%, transparent 66%), linear-gradient(rgba(20, 9, 13, 0.52), rgba(20, 9, 13, 0.52)), url('/deepseek-theme/assets/sidebar-bg.png')",
   }),
 })
-
