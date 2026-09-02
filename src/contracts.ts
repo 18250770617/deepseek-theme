@@ -1,6 +1,10 @@
 export const SETTINGS_ID = 'deepseek-theme'
 
-export const BODY_FONTS = ['noto', 'chakra', 'rajdhani'] as const
+export const BODY_FONTS = [
+  'noto', 'chakra', 'rajdhani',
+  'yahei', 'pingfang', 'sourcehan',
+  'inter', 'segoe', 'roboto',
+] as const
 export const CONVERSATION_FONTS = [
   'inherit', 'xingkai', 'kaiti', 'fangsong', 'times', 'georgia', 'cambria',
 ] as const
@@ -23,4 +27,3 @@ export const DEFAULT_SETTINGS: DeepSeekThemeSettings = Object.freeze({
   progressFont: 'orbitron',
   progressColor: 'auto',
 })
-

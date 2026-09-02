@@ -12,6 +12,12 @@ const BODY_OPTIONS: readonly Option[] = [
   { value: 'noto', label: 'Noto Sans SC（清晰现代）' },
   { value: 'chakra', label: 'Chakra Petch（机械切角）' },
   { value: 'rajdhani', label: 'Rajdhani（HUD 窄体）' },
+  { value: 'yahei', label: '微软雅黑（Windows 常用）', group: '中文字体' },
+  { value: 'pingfang', label: '苹方（macOS 常用）', group: '中文字体' },
+  { value: 'sourcehan', label: '思源黑体（跨平台）', group: '中文字体' },
+  { value: 'inter', label: 'Inter（现代 UI）', group: '英文字体' },
+  { value: 'segoe', label: 'Segoe UI（Windows UI）', group: '英文字体' },
+  { value: 'roboto', label: 'Roboto（Android / Web）', group: '英文字体' },
 ]
 
 const CONVERSATION_OPTIONS: readonly Option[] = [

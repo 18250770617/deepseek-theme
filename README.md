@@ -18,7 +18,7 @@ one package.
 
 ## Compatibility
 
-Version `0.2.0` targets **DeepSeek Harness `0.1.2-alpha.4` exactly**. The package
+Version `0.2.1` targets **DeepSeek Harness `0.1.2-alpha.4` exactly**. The package
 uses official theme, settings, and conversation Slots where Harness exposes
 them. A small compatibility stylesheet is isolated and version-pinned because
 this Harness release has no public typography/sidebar decoration API.
@@ -44,7 +44,7 @@ You can also install a packaged release:
 ```powershell
 npm run build
 npm pack
-dsh plugin --profile web add ./dsh-deepseek-theme-0.2.0.tgz
+dsh plugin --profile web add ./dsh-deepseek-theme-0.2.1.tgz
 ```
 
 Open Harness settings and find **DeepSeek Theme** under General. The plugin is
@@ -61,7 +61,12 @@ dsh plugin --profile web remove dsh-deepseek-theme
 ## Typography
 
 The packaged technology-style presets are Orbitron, Chakra Petch, and
-Rajdhani. Conversation presets additionally include common system fonts:
+Rajdhani. Body-text presets additionally include popular system fonts:
+
+- Chinese: Microsoft YaHei, PingFang SC, Source Han Sans SC
+- English: Inter, Segoe UI, Roboto
+
+Conversation presets include these common system fonts:
 
 - Chinese: STXingkai, KaiTi, FangSong
 - English: Times New Roman, Georgia, Cambria

@@ -15,4 +15,12 @@ describe('theme settings contract', () => {
       'inherit', 'xingkai', 'kaiti', 'fangsong', 'times', 'georgia', 'cambria',
     ])
   })
+
+  it('ships popular Chinese and English body-font choices', () => {
+    expect(BODY_FONTS).toEqual([
+      'noto', 'chakra', 'rajdhani',
+      'yahei', 'pingfang', 'sourcehan',
+      'inter', 'segoe', 'roboto',
+    ])
+  })
 })
