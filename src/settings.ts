@@ -1,11 +1,10 @@
 import z from '@deepseek-ai/schemastery'
-import { settingsNamespace } from '@deepseek-ai/dsh-settings'
 import {
   BODY_FONTS, CONVERSATION_FONTS, DEFAULT_SETTINGS, PROGRESS_FONTS, SETTINGS_ID,
   type DeepSeekThemeSettings,
 } from './contracts.ts'
 
-export const SETTINGS_NAMESPACE = settingsNamespace(SETTINGS_ID)
+export const SETTINGS_NAMESPACE = SETTINGS_ID
 
 const color = z.string().pattern(/^(?:auto|#[0-9a-fA-F]{6})$/)
 

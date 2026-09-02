@@ -1,4 +1,4 @@
-import type { SettingsScope } from '@deepseek-ai/dsh-client-runtime/client'
+import type { SettingsScope } from '@deepseek-ai/dsh-client-ui-settings/client'
 import type { ThemeRuntime } from '@deepseek-ai/dsh-client-ui-theme/client'
 import { DEFAULT_SETTINGS, type DeepSeekThemeSettings } from '../contracts.ts'
 import { THEME_ID } from './theme.ts'
